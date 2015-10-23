@@ -37,8 +37,7 @@ class MyStreamer(TwythonStreamer):
         self.disconnect()
 
 start = time.time()
-stream = MyStreamer('PtFW0bLiVACNukYITt0UjyvOc', 'j6T8eTigXbdcVNVWbVYvGHgc5OyuqyFOeItbTV4rzaf542Y8ZK',
-'3959083463-N6uSuV7D0TBUIGCOl2cll8O5x9fUI3NvOULMHxJ', 'KX6RP9X6fcZX9PGrWNectpeBmUzFwCi4WKcxr8UudgIi0')
+stream = MyStreamer('APP_KEY', 'APP_SECRET','OAUTH_TOKEN', 'OAUTH_TOKEN_SECRET')
 
 # starts pulling data that about contain the key words mentioned in list t
 t = ["Lebron","Trump"]
